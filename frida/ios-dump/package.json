@@ -1,0 +1,18 @@
+{
+  "name": "frida-ios-dump-agent",
+  "version": "2.0.0",
+  "description": "frida-ios-dump decryption agent, ported to the frida 16/17 API",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "frida-compile agent/dump.js -o dump.js -c",
+    "watch": "frida-compile agent/dump.js -o dump.js -w"
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^18.0.0",
+    "frida-compile": "^17.0.0"
+  },
+  "dependencies": {
+    "frida-objc-bridge": "^8.0.6"
+  }
+}
