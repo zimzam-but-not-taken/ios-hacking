@@ -1,7 +1,7 @@
 # ios-hacking tools
 Basically just some tools I use to reduce friction when iOS pentesting, or to make setting up a testing device a little less painful.
 
-Hate some of this code. I normally write these sloppily by hand and relish the fact that I can still code. But since this repo is now public so I had AI make them more reliable (no hard-coded paths, etc).
+Hate some of this code. I normally write these sloppily by hand and relish the fact that I can still code. But since this repo is now public I had AI make them more reliable (no hard-coded paths, etc).
 
 Tools are nothing crazy unique, **NO Craby Patty Secret Formula**. Just basics automated. Friction reduced. Hacking started faster. 
 
