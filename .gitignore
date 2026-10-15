@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+._*
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node (frida agent build deps; the built frida/ios-dump/dump.js IS tracked)
+node_modules/
+
+# Decrypted apps and anything pulled off the device -- never commit these
+*.ipa
+Target_IPAs/
+Payload/
